@@ -123,6 +123,7 @@ $form-item-error-padding-top: map.merge(
     align-items: center;
     flex: 1;
     line-height: #{map.get($form-item-line-height, 'defalt')};
+    vertical-align: top;
     position: relative;
     font-size: var(--font-size);
     min-width: 0;
